@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Darkside GAS",
-    "version": "1.0",
+    "version": "2.0",
     "description": "GASのスクリプトエディターの色を反転しダークモードにします。",
     "permissions": [],
     "icons": {
@@ -14,8 +14,8 @@
             "matches": [
                 "https://script.google.com/*/edit*"
             ],
-            "js": [
-                "script.js"
+            "css": [
+                "darkside.css"
             ]
         }
     ]

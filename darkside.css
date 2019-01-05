@@ -1,0 +1,32 @@
+/* ヘッダー部全体の色を反転 */
+#docs-chrome {
+    filter: invert(1);
+}
+/* アイコンの色を反転して元に戻す */
+/* GASのロゴ */
+#docs-branding-container {
+    filter: invert(1);
+}
+/* Shareボタン */
+#docs-titlebar-share-client-button {
+    filter: invert(1);
+}
+
+/* リソースリストの色（背景、文字） */
+.workspace .resource-list {
+    filter: invert(1);
+}
+
+/* リソースリストとエディタの仕切りの色 */
+.workspace .gwt-SplitLayoutPanel-HDragger {
+    filter: invert(1);
+}
+
+/* エディタ背景色を設定 */
+.workspace {
+    background-color: black;
+}
+/* エディタの文字色 */
+.editor {
+    filter: invert(1);
+}
