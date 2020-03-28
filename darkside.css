@@ -1,5 +1,6 @@
 /* ヘッダー部全体の色を反転 */
 #docs-chrome {
+    background-color: white;
     filter: invert(1);
 }
 /* アイコンの色を反転して元に戻す */
