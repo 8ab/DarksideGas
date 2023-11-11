@@ -1,3 +1,13 @@
+body {
+    filter: invert(1);  
+}
+/* この設定を入れないとbodyのbackground-colorのinvertが反映されない。色は何でもいい */
+html{
+    background-color: red;
+}
+/*
+/* 2023/11/11 以下コメント化
+/*
 /* ヘッダー部全体の色を反転 */
 #docs-chrome {
     background-color: white;
@@ -31,3 +41,4 @@
 .editor {
     filter: invert(1);
 }
+2023/11/11 */
